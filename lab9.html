@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+	<meta charset="utf-8">
+	<title>Practice 10</title>
+    <link rel="stylesheet" type="text/css" href="lab9.css">
+  </head>
+  <body>
+  <script src="lab9.js"></script>
+  <div class="table">
+	<input type="text" value="0" id="in">
+    <div class="row">
+		<button onclick="number(this.innerHTML)">7</button>
+		<button onclick="number(this.innerHTML)">8</button>
+		<button onclick="number(this.innerHTML)">9</button>
+		<button onclick="sign(' '+this.innerHTML+' ')">/</button>
+		<button onclick="Clear()">C</button>
+	  </div>
+	  <div class="row">
+		<button onclick="number(this.innerHTML)">4</button>
+		<button onclick="number(this.innerHTML)">5</button>
+		<button onclick="number(this.innerHTML)">6</button>
+		<button onclick="sign(' '+this.innerHTML+' ')">*</button>
+		<button onclick="Del()"><-</button>
+	  </div>
+	  <div class="row">
+		<button onclick="number(this.innerHTML)">1</button>
+		<button onclick="number(this.innerHTML)">2</button>
+		<button onclick="number(this.innerHTML)">3</button>
+		<button onclick="sign(' '+this.innerHTML+' ')">-</button>
+		<button class="equal" onclick="Count()">=</button>		
+		<button class="zero" onclick="number(this.innerHTML)">0</button>
+		<button onclick="sign(this.innerHTML+' ')">.</button>
+		<button onclick="sign(' '+this.innerHTML+' ')">+</button>
+	  </div>
+	<div class="clearfix"></div>
+  </div>
+  </body>
+</html>
